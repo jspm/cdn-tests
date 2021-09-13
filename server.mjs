@@ -37,12 +37,15 @@ function setBrowserTimeout () {
   browserTimeout = setTimeout(() => {
     console.log('No browser requests made to server for 10s, closing.');
     process.exit(failTimeout || process.env.CI_BROWSER ? 1 : 0);
-  }, 10000);
+  }, 20000);
 }
 
 setBrowserTimeout();
 
 http.createServer(async function (req, res) {
+  // Helps CI debugging:
+  if (process.env.CI_BROWSER)
+    console.log("REQ: " + req.url);
   setBrowserTimeout();
   if (req.url.startsWith('/done')) {
     console.log(kleur.green('Tests completed successfully.'));
@@ -69,6 +72,15 @@ http.createServer(async function (req, res) {
 
   const url = new URL(req.url[0] === '/' ? req.url.slice(1) : req.url, rootURL);
   const filePath = fileURLToPath(url);
+
+  // redirect to test/test.html file by default
+  if (url.href === rootURL.href) {
+    res.writeHead(301, {
+      'location': '/test/test.html'
+    });
+    res.end();
+    return;
+  }
 
   const fileStream = fs.createReadStream(filePath);
   try {
@@ -105,7 +117,7 @@ let spawnPs;
 if (process.env.CI_BROWSER) {
   const args = process.env.CI_BROWSER_FLAGS ? process.env.CI_BROWSER_FLAGS.split(' ') : [];
   console.log('Spawning browser: ' + process.env.CI_BROWSER + ' ' + args.join(' '));
-  spawnPs = spawn(process.env.CI_BROWSER, [...args, `http://localhost:${port}/test/${testName}.html`]);
+  spawnPs = spawn(process.env.CI_BROWSER, [...args, `http://localhost:${port}/${testName}.html`]);
 }
 else {
   open(`http://localhost:${port}/${testName}.html`, { app: { name: open.apps.chrome } });
