@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "longest": "https://ga.jspm.io/npm:longest@2.0.1/index.js"
+  }
+}

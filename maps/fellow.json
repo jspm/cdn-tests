@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "fellow": "https://ga.jspm.io/npm:fellow@6.9.0/edition-browsers/index.js"
+  }
+}

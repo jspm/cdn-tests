@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "jsheatmap": "https://ga.jspm.io/npm:jsheatmap@1.2.2/lib/index.js"
+  }
+}

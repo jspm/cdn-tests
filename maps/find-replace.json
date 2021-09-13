@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "find-replace": "https://ga.jspm.io/npm:find-replace@4.0.1/dist/index.js"
+  }
+}

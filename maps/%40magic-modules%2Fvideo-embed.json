@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@magic-modules/video-embed": "https://ga.jspm.io/npm:@magic-modules/video-embed@0.0.4/src/index.mjs"
+  }
+}

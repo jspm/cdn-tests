@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "idb": "https://ga.jspm.io/npm:idb@5.0.4/build/cjs/index.js"
+  }
+}

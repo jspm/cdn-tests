@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@webboot/magic-theme": "https://ga.jspm.io/npm:@webboot/magic-theme@0.0.5/src/index.mjs"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@magic-libraries/try-catch": "https://ga.jspm.io/npm:@magic-libraries/try-catch@0.0.2/src/index.mjs"
+  }
+}

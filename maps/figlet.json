@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "figlet": "https://ga.jspm.io/npm:figlet@1.4.0/lib/figlet.js"
+  }
+}

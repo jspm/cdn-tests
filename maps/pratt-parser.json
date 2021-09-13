@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "pratt-parser": "https://ga.jspm.io/npm:pratt-parser@8.0.7/src/parser.mjs"
+  }
+}

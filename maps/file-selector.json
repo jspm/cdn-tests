@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "file-selector": "https://ga.jspm.io/npm:file-selector@0.1.12/dist/index.js"
+  }
+}

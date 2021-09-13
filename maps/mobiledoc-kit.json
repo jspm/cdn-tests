@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "mobiledoc-kit": "https://ga.jspm.io/npm:mobiledoc-kit@0.13.1/dist/mobiledoc.js"
+  }
+}

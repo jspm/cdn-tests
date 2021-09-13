@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "openssl.js": "https://ga.jspm.io/npm:openssl.js@1.2.0/dist/browser.openssl.js"
+  }
+}
