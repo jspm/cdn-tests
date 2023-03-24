@@ -5,7 +5,7 @@
     "open": "^8.4.2"
   },
   "scripts": {
-    "build": "mkdir -p maps && node generate-maps.mjs",
-    "test": "node server.mjs"
+    "build": "mkdir -p data/maps && node scripts/generate-maps.mjs",
+    "test": "node scripts/run-tests.mjs"
   }
 }
