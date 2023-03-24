@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "core-js": "https://ga.jspm.io/npm:core-js@3.6.5/index.js"
+  }
+}

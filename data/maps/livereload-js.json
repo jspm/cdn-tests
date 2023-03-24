@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "livereload-js": "https://ga.jspm.io/npm:livereload-js@4.0.1/src/startup.js"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "process": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/process.js"
+    }
+  }
+}

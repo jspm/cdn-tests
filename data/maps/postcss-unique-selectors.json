@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "postcss-unique-selectors": "https://ga.jspm.io/npm:postcss-unique-selectors@5.1.1/src/index.js"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "cssesc": "https://ga.jspm.io/npm:cssesc@3.0.0/cssesc.js",
+      "postcss-selector-parser": "https://ga.jspm.io/npm:postcss-selector-parser@6.0.10/dist/index.js",
+      "util-deprecate": "https://ga.jspm.io/npm:util-deprecate@1.0.2/browser.js"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "fetch-mock": "https://ga.jspm.io/npm:fetch-mock@9.10.1/esm/client.js"
+  }
+}

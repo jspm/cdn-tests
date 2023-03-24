@@ -1,0 +1,15 @@
+{
+  "imports": {
+    "af-virtual-scroll": "https://ga.jspm.io/npm:af-virtual-scroll@2.14.0/lib/index.js"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose": "https://ga.jspm.io/npm:@babel/runtime@7.21.0/helpers/esm/objectWithoutPropertiesLoose.js",
+      "object-assign": "https://ga.jspm.io/npm:object-assign@4.1.1/index.js",
+      "prop-types": "https://ga.jspm.io/npm:prop-types@15.8.1/dev.index.js",
+      "react": "https://ga.jspm.io/npm:react@17.0.2/dev.index.js",
+      "react-is": "https://ga.jspm.io/npm:react-is@16.13.1/dev.index.js",
+      "react/jsx-runtime": "https://ga.jspm.io/npm:react@17.0.2/dev.jsx-runtime.js"
+    }
+  }
+}

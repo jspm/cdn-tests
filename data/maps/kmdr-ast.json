@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "kmdr-ast": "https://ga.jspm.io/npm:kmdr-ast@3.3.3/dist/index.js"
+  }
+}

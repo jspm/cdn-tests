@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "is-subset": "https://ga.jspm.io/npm:is-subset@0.1.1/index.js"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "imports": {
+    "@spectrum-web-components/action-menu": "https://ga.jspm.io/npm:@spectrum-web-components/action-menu@0.16.0/src/index.dev.js"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "@floating-ui/core": "https://ga.jspm.io/npm:@floating-ui/core@1.2.4/dist/floating-ui.core.browser.mjs",
+      "@floating-ui/dom": "https://ga.jspm.io/npm:@floating-ui/dom@1.2.5/dist/floating-ui.dom.browser.mjs",
+      "@lit-labs/observers/mutation_controller.js": "https://ga.jspm.io/npm:@lit-labs/observers@1.1.0/development/mutation_controller.js",
+      "@lit/reactive-element": "https://ga.jspm.io/npm:@lit/reactive-element@1.6.1/development/reactive-element.js",
+      "@lit/reactive-element/decorators/": "https://ga.jspm.io/npm:@lit/reactive-element@1.6.1/development/decorators/",
+      "@spectrum-web-components/action-button/sp-action-button.js": "https://ga.jspm.io/npm:@spectrum-web-components/action-button@0.10.14/sp-action-button.dev.js",
+      "@spectrum-web-components/base": "https://ga.jspm.io/npm:@spectrum-web-components/base@0.7.4/src/index.dev.js",
+      "@spectrum-web-components/base/src/decorators.js": "https://ga.jspm.io/npm:@spectrum-web-components/base@0.7.4/src/decorators.dev.js",
+      "@spectrum-web-components/base/src/directives.js": "https://ga.jspm.io/npm:@spectrum-web-components/base@0.7.4/src/directives.dev.js",
+      "@spectrum-web-components/button": "https://ga.jspm.io/npm:@spectrum-web-components/button@0.20.3/src/index.dev.js",
+      "@spectrum-web-components/clear-button/src/clear-button.css.js": "https://ga.jspm.io/npm:@spectrum-web-components/clear-button@0.2.7/src/clear-button.css.js",
+      "@spectrum-web-components/close-button/src/close-button.css.js": "https://ga.jspm.io/npm:@spectrum-web-components/close-button@0.3.10/src/close-button.css.js",
+      "@spectrum-web-components/icon": "https://ga.jspm.io/npm:@spectrum-web-components/icon@0.12.9/src/index.dev.js",
+      "@spectrum-web-components/icon/src/": "https://ga.jspm.io/npm:@spectrum-web-components/icon@0.12.9/src/",
+      "@spectrum-web-components/icons-ui/icons/": "https://ga.jspm.io/npm:@spectrum-web-components/icons-ui@0.9.10/icons/",
+      "@spectrum-web-components/icons-workflow/icons/": "https://ga.jspm.io/npm:@spectrum-web-components/icons-workflow@0.9.10/icons/",
+      "@spectrum-web-components/iconset/src/iconset-registry.js": "https://ga.jspm.io/npm:@spectrum-web-components/iconset@0.7.6/src/iconset-registry.dev.js",
+      "@spectrum-web-components/menu/sp-menu.js": "https://ga.jspm.io/npm:@spectrum-web-components/menu@0.16.15/sp-menu.dev.js",
+      "@spectrum-web-components/modal/src/modal.css.js": "https://ga.jspm.io/npm:@spectrum-web-components/modal@0.7.8/src/modal.css.js",
+      "@spectrum-web-components/overlay": "https://ga.jspm.io/npm:@spectrum-web-components/overlay@0.19.3/src/index.dev.js",
+      "@spectrum-web-components/overlay/src/loader.js": "https://ga.jspm.io/npm:@spectrum-web-components/overlay@0.19.3/src/loader.dev.js",
+      "@spectrum-web-components/overlay/src/overlay-events.js": "https://ga.jspm.io/npm:@spectrum-web-components/overlay@0.19.3/src/overlay-events.dev.js",
+      "@spectrum-web-components/overlay/src/overlay.js": "https://ga.jspm.io/npm:@spectrum-web-components/overlay@0.19.3/src/overlay.dev.js",
+      "@spectrum-web-components/picker": "https://ga.jspm.io/npm:@spectrum-web-components/picker@0.15.0/src/index.dev.js",
+      "@spectrum-web-components/popover/sp-popover.js": "https://ga.jspm.io/npm:@spectrum-web-components/popover@0.12.15/sp-popover.dev.js",
+      "@spectrum-web-components/reactive-controllers/src/MatchMedia.js": "https://ga.jspm.io/npm:@spectrum-web-components/reactive-controllers@0.3.5/src/MatchMedia.dev.js",
+      "@spectrum-web-components/shared/src/first-focusable-in.js": "https://ga.jspm.io/npm:@spectrum-web-components/shared@0.15.5/src/first-focusable-in.dev.js",
+      "@spectrum-web-components/shared/src/focusable.js": "https://ga.jspm.io/npm:@spectrum-web-components/shared@0.15.5/src/focusable.dev.js",
+      "@spectrum-web-components/shared/src/get-deep-element-from-point.js": "https://ga.jspm.io/npm:@spectrum-web-components/shared@0.15.5/src/get-deep-element-from-point.dev.js",
+      "@spectrum-web-components/shared/src/like-anchor.js": "https://ga.jspm.io/npm:@spectrum-web-components/shared@0.15.5/src/like-anchor.dev.js",
+      "@spectrum-web-components/shared/src/observe-slot-text.js": "https://ga.jspm.io/npm:@spectrum-web-components/shared@0.15.5/src/observe-slot-text.dev.js",
+      "@spectrum-web-components/shared/src/platform.js": "https://ga.jspm.io/npm:@spectrum-web-components/shared@0.15.5/src/platform.dev.js",
+      "@spectrum-web-components/shared/src/reparent-children.js": "https://ga.jspm.io/npm:@spectrum-web-components/shared@0.15.5/src/reparent-children.dev.js",
+      "@spectrum-web-components/tray/sp-tray.js": "https://ga.jspm.io/npm:@spectrum-web-components/tray@0.5.1/sp-tray.dev.js",
+      "@spectrum-web-components/underlay/sp-underlay.js": "https://ga.jspm.io/npm:@spectrum-web-components/underlay@0.9.7/sp-underlay.dev.js",
+      "focus-visible": "https://ga.jspm.io/npm:focus-visible@5.2.0/dist/focus-visible.js",
+      "lit": "https://ga.jspm.io/npm:lit@2.7.0/index.js",
+      "lit-element/lit-element.js": "https://ga.jspm.io/npm:lit-element@3.3.0/development/lit-element.js",
+      "lit-html": "https://ga.jspm.io/npm:lit-html@2.7.0/development/lit-html.js",
+      "lit-html/": "https://ga.jspm.io/npm:lit-html@2.7.0/development/",
+      "lit/": "https://ga.jspm.io/npm:lit@2.7.0/"
+    }
+  }
+}

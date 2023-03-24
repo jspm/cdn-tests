@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "jsonx": "https://ga.jspm.io/npm:jsonx@1.4.3/dist/index.umd.js"
+  }
+}

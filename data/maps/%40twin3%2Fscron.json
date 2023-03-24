@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@twin3/scron": "https://ga.jspm.io/npm:@twin3/scron@1.0.7/libs/scron.min.js"
+  }
+}

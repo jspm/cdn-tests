@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@lrnwebcomponents/utils": "https://ga.jspm.io/npm:@lrnwebcomponents/utils@2.6.12/utils.js"
+  }
+}

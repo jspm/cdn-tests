@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "core-js-pure": "https://ga.jspm.io/npm:core-js-pure@3.6.5/index.js"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "imports": {
+    "@spectrum-web-components/icons": "https://ga.jspm.io/npm:@spectrum-web-components/icons@0.9.6/src/index.dev.js"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "@lit/reactive-element": "https://ga.jspm.io/npm:@lit/reactive-element@1.6.1/development/reactive-element.js",
+      "@lit/reactive-element/decorators/": "https://ga.jspm.io/npm:@lit/reactive-element@1.6.1/development/decorators/",
+      "@spectrum-web-components/base": "https://ga.jspm.io/npm:@spectrum-web-components/base@0.7.4/src/index.dev.js",
+      "@spectrum-web-components/base/src/decorators.js": "https://ga.jspm.io/npm:@spectrum-web-components/base@0.7.4/src/decorators.dev.js",
+      "@spectrum-web-components/iconset/src/iconset-svg.js": "https://ga.jspm.io/npm:@spectrum-web-components/iconset@0.7.6/src/iconset-svg.dev.js",
+      "lit": "https://ga.jspm.io/npm:lit@2.7.0/index.js",
+      "lit-element/lit-element.js": "https://ga.jspm.io/npm:lit-element@3.3.0/development/lit-element.js",
+      "lit-html": "https://ga.jspm.io/npm:lit-html@2.7.0/development/lit-html.js",
+      "lit-html/is-server.js": "https://ga.jspm.io/npm:lit-html@2.7.0/development/is-server.js",
+      "lit/decorators.js": "https://ga.jspm.io/npm:lit@2.7.0/decorators.js"
+    }
+  }
+}

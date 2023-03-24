@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "is-primitive": "https://ga.jspm.io/npm:is-primitive@3.0.1/index.js"
+  }
+}

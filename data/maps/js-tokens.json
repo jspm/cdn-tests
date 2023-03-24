@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "js-tokens": "https://ga.jspm.io/npm:js-tokens@6.0.0/index.js"
+  }
+}

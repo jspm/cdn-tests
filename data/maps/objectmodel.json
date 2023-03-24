@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "objectmodel": "https://ga.jspm.io/npm:objectmodel@4.2.1/dist/object-model.js"
+  }
+}

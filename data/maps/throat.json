@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "throat": "https://ga.jspm.io/npm:throat@5.0.0/index.js"
+  }
+}

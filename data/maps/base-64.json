@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "base-64": "https://ga.jspm.io/npm:base-64@0.1.0/base64.js"
+  }
+}

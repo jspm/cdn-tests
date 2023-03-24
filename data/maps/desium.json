@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "desium": "https://ga.jspm.io/npm:desium@1.0.0/index.js"
+  }
+}
