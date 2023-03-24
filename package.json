@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "@jspm/generator": "^1.0.0-beta.15",
-    "kleur": "^4.1.4",
-    "open": "^8.2.1"
+    "@jspm/generator": "^1.1.1",
+    "kleur": "^4.1.5",
+    "open": "^8.4.2"
   },
   "scripts": {
     "build": "mkdir -p maps && node generate-maps.mjs",

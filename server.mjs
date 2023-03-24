@@ -73,15 +73,6 @@ http.createServer(async function (req, res) {
   const url = new URL(req.url[0] === '/' ? req.url.slice(1) : req.url, rootURL);
   const filePath = fileURLToPath(url);
 
-  // redirect to test/test.html file by default
-  if (url.href === rootURL.href) {
-    res.writeHead(301, {
-      'location': '/test/test.html'
-    });
-    res.end();
-    return;
-  }
-
   const fileStream = fs.createReadStream(filePath);
   try {
     await once(fileStream, 'readable');
