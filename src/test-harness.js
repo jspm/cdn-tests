@@ -1,5 +1,5 @@
-import runTests from "./src/runner.js";
-import { createMapLoader } from "./src/loader.js";
+import runTests from "./runner.js";
+import { createMapLoader } from "./loader.js";
 
 const {
   cdn = true,
@@ -35,7 +35,7 @@ async function loadAndCreateMap(url, system) {
   return createMapLoader(map, system);
 }
 
-const tests = eval(await (await fetch("./data/tests.js")).text());
+const tests = eval(await (await fetch("../data/tests.js")).text());
 
 if (cdn) {
   await runTests(
@@ -46,7 +46,7 @@ if (cdn) {
           test: installs,
           async run() {
             const loader = await loadAndCreateMap(
-              `./data/maps/${encodeURIComponent(encodeURIComponent(installs))}.json`
+              `../data/maps/${encodeURIComponent(encodeURIComponent(installs))}.json`
             );
             const ms = await Promise.all(
               installs.split(" ").map(loader.import)
@@ -95,7 +95,7 @@ if (system) {
           test: installs,
           async run() {
             const loader = await loadAndCreateMap(
-              `./data/maps/${encodeURIComponent(encodeURIComponent(installs))}.json`,
+              `../data/maps/${encodeURIComponent(encodeURIComponent(installs))}.json`,
               true
             );
             const ms = await Promise.all(
@@ -111,8 +111,8 @@ if (system) {
 }
 
 if (full) {
-  const testList = await (await fetch("./data/test-list.json")).json();
-  const skip = eval(await (await fetch("./data/skip-list.js")).text());
+  const testList = await (await fetch("../data/test-list.json")).json();
+  const skip = eval(await (await fetch("../data/skip-list.js")).text());
   const startAt = 0;
   runTests(
     await Promise.all(
@@ -127,7 +127,7 @@ if (full) {
               else {
                 try {
                   var loader = await loadAndCreateMap(
-                    `./data/maps/${encodeURIComponent(
+                    `../data/maps/${encodeURIComponent(
                       encodeURIComponent(test)
                     )}.json`,
                     system

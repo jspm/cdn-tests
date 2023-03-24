@@ -1,6 +1,6 @@
 export function createMapLoader (importMap, system) {
   const iframe = Object.assign(document.createElement('iframe'), {
-    src: './src/loader.html',
+    src: './loader.html',
     style: 'display: none'
   });
   const loadPromise = new Promise(resolve => {
