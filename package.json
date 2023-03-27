@@ -1,4 +1,6 @@
 {
+  "name": "@jspm/cdn-tests",
+  "exports": "./src/server.mjs",
   "dependencies": {
     "@jspm/generator": "^1.1.1",
     "kleur": "^4.1.5",

@@ -18,7 +18,7 @@ export class Server extends EventEmitter {
   }
   testData = {} // id -> data
 
-  constructor(port = 8080, rootUrl = import.meta.url) {
+  constructor(port = 8080, rootUrl = new URL('../', import.meta.url)) {
     super();
     this.port = port;
     this.rootUrl = rootUrl;
@@ -123,6 +123,7 @@ export class Server extends EventEmitter {
       }
 
       await testCompletion;
+      return true;
     }
 
     // Clean up everything from the test:
