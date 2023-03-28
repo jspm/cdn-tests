@@ -7,7 +7,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 export class Server extends EventEmitter {
-  id = 0
+  rootUrl = new URL('../', import.meta.url);
+  id = 0;
   mimes = {
     '.html': 'text/html',
     '.css': 'text/css',
@@ -15,13 +16,15 @@ export class Server extends EventEmitter {
     '.mjs': 'application/javascript',
     '.json': 'application/json',
     '.wasm': 'application/wasm'
-  }
-  testData = {} // id -> data
+  };
+  testData = {}; // id -> data
 
-  constructor(port = 8080, rootUrl = new URL('../', import.meta.url)) {
+  constructor(
+    port = 8080,
+    listeningCb = null,
+  ) {
     super();
     this.port = port;
-    this.rootUrl = rootUrl;
     this.server = http.createServer(async (req, res) => {
       const url = new URL(req.url, this.rootUrl);
 
@@ -68,7 +71,7 @@ export class Server extends EventEmitter {
 
       // Fallback to serving local files:
       await this.handleFile(req, res);
-    }).listen(this.port);
+    }).listen(this.port, listeningCb);
 
     console.log(`CDN test server listening on http://localhost:${this.port}`);
   }
