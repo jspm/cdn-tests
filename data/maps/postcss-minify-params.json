@@ -1,0 +1,18 @@
+{
+  "imports": {
+    "postcss-minify-params": "https://ga.jspm.io/npm:postcss-minify-params@5.1.4/src/index.js"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "#node.js": "https://ga.jspm.io/npm:browserslist@4.21.5/browser.js",
+      "browserslist": "https://ga.jspm.io/npm:browserslist@4.21.5/index.js",
+      "caniuse-lite/dist/unpacker/agents": "https://ga.jspm.io/npm:caniuse-lite@1.0.30001469/dist/unpacker/agents.js",
+      "cssnano-utils": "https://ga.jspm.io/npm:cssnano-utils@3.1.0/src/index.js",
+      "electron-to-chromium/versions": "https://ga.jspm.io/npm:electron-to-chromium@1.4.337/versions.js",
+      "node-releases/data/processed/envs.json": "https://ga.jspm.io/npm:node-releases@2.0.10/data/processed/envs.json.js",
+      "node-releases/data/release-schedule/release-schedule.json": "https://ga.jspm.io/npm:node-releases@2.0.10/data/release-schedule/release-schedule.json.js",
+      "path": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/path.js",
+      "postcss-value-parser": "https://ga.jspm.io/npm:postcss-value-parser@4.2.0/lib/index.js"
+    }
+  }
+}

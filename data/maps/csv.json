@@ -1,0 +1,15 @@
+{
+  "imports": {
+    "csv": "https://ga.jspm.io/npm:csv@6.2.8/lib/index.js"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "csv-generate": "https://ga.jspm.io/npm:csv-generate@4.2.2/lib/index.js",
+      "csv-parse": "https://ga.jspm.io/npm:csv-parse@5.3.6/lib/index.js",
+      "csv-stringify": "https://ga.jspm.io/npm:csv-stringify@6.3.0/lib/index.js",
+      "stream": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/stream.js",
+      "stream-transform": "https://ga.jspm.io/npm:stream-transform@3.2.2/lib/index.js",
+      "util": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/util.js"
+    }
+  }
+}

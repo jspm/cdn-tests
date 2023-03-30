@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "aggregation-repository-provider": "https://ga.jspm.io/npm:aggregation-repository-provider@5.3.23/src/repository-provider.mjs"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "aggregate-async-iterator": "https://ga.jspm.io/npm:aggregate-async-iterator@1.1.16/src/aggregate-async-iterator.mjs",
+      "matching-iterator": "https://ga.jspm.io/npm:matching-iterator@2.0.11/src/matching-iterator.mjs",
+      "repository-provider": "https://ga.jspm.io/npm:repository-provider@32.6.11/src/index.mjs"
+    }
+  }
+}

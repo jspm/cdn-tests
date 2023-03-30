@@ -1,0 +1,15 @@
+{
+  "imports": {
+    "single-spa-angular": "https://ga.jspm.io/npm:single-spa-angular@8.1.0/fesm2020/single-spa-angular.mjs"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "@angular/common": "https://ga.jspm.io/npm:@angular/common@15.2.2/fesm2020/common.mjs",
+      "@angular/core": "https://ga.jspm.io/npm:@angular/core@15.2.2/fesm2020/core.mjs",
+      "rxjs": "https://ga.jspm.io/npm:rxjs@7.8.0/dist/esm5/index.js",
+      "rxjs/operators": "https://ga.jspm.io/npm:rxjs@7.8.0/dist/esm5/operators/index.js",
+      "single-spa-angular/internals": "https://ga.jspm.io/npm:single-spa-angular@8.1.0/fesm2020/single-spa-angular-internals.mjs",
+      "tslib": "https://ga.jspm.io/npm:tslib@2.5.0/tslib.es6.js"
+    }
+  }
+}

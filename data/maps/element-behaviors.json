@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "element-behaviors": "https://ga.jspm.io/npm:element-behaviors@3.0.4/dist/index.js"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "@lume/custom-attributes/dist/index.js": "https://ga.jspm.io/npm:@lume/custom-attributes@0.1.5/dist/index.js",
+      "solid-js": "https://ga.jspm.io/npm:solid-js@1.6.15/dist/dev.js",
+      "solid-js/store": "https://ga.jspm.io/npm:solid-js@1.6.15/store/dist/dev.js"
+    }
+  }
+}

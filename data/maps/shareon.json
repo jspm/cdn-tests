@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "shareon": "https://ga.jspm.io/npm:shareon@2.1.0/dist/shareon.es.js"
+  }
+}

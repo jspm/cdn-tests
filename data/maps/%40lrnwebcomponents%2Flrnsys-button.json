@@ -1,0 +1,34 @@
+{
+  "imports": {
+    "@lrnwebcomponents/lrnsys-button": "https://ga.jspm.io/npm:@lrnwebcomponents/lrnsys-button@4.1.0/lrnsys-button.js"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "@lit/reactive-element": "https://ga.jspm.io/npm:@lit/reactive-element@1.6.1/development/reactive-element.js",
+      "@lrnwebcomponents/a11y-utils/a11y-utils.js": "https://ga.jspm.io/npm:@lrnwebcomponents/a11y-utils@4.1.0/a11y-utils.js",
+      "@lrnwebcomponents/dropdown-select/dropdown-select.js": "https://ga.jspm.io/npm:@lrnwebcomponents/dropdown-select@4.1.0/dropdown-select.js",
+      "@lrnwebcomponents/elmsln-apps/lib/elmsln-base-deps.js": "https://ga.jspm.io/npm:@lrnwebcomponents/elmsln-apps@4.1.0/lib/elmsln-base-deps.js",
+      "@lrnwebcomponents/hax-iconset/lib/": "https://ga.jspm.io/npm:@lrnwebcomponents/hax-iconset@4.1.0/lib/",
+      "@lrnwebcomponents/lrn-icons/lrn-icons.js": "https://ga.jspm.io/npm:@lrnwebcomponents/lrn-icons@4.0.25/lrn-icons.js",
+      "@lrnwebcomponents/materializecss-styles/lib/colors.js": "https://ga.jspm.io/npm:@lrnwebcomponents/materializecss-styles@4.1.0/lib/colors.js",
+      "@lrnwebcomponents/simple-colors-shared-styles/simple-colors-shared-styles.js": "https://ga.jspm.io/npm:@lrnwebcomponents/simple-colors-shared-styles@4.1.0/simple-colors-shared-styles.js",
+      "@lrnwebcomponents/simple-colors/simple-colors.js": "https://ga.jspm.io/npm:@lrnwebcomponents/simple-colors@4.1.0/simple-colors.js",
+      "@lrnwebcomponents/simple-fields/lib/simple-fields-container.js": "https://ga.jspm.io/npm:@lrnwebcomponents/simple-fields@4.1.0/lib/simple-fields-container.js",
+      "@lrnwebcomponents/simple-icon/": "https://ga.jspm.io/npm:@lrnwebcomponents/simple-icon@4.1.0/",
+      "@lrnwebcomponents/simple-picker/simple-picker.js": "https://ga.jspm.io/npm:@lrnwebcomponents/simple-picker@4.1.0/simple-picker.js",
+      "@lrnwebcomponents/simple-tooltip/simple-tooltip.js": "https://ga.jspm.io/npm:@lrnwebcomponents/simple-tooltip@4.1.0/simple-tooltip.js",
+      "@polymer/iron-flex-layout/iron-flex-layout.js": "https://ga.jspm.io/npm:@polymer/iron-flex-layout@3.0.1/iron-flex-layout.js",
+      "@polymer/iron-icon/iron-icon.js": "https://ga.jspm.io/npm:@polymer/iron-icon@3.0.1/iron-icon.js",
+      "@polymer/iron-icons/": "https://ga.jspm.io/npm:@polymer/iron-icons@3.0.1/",
+      "@polymer/iron-iconset-svg/iron-iconset-svg.js": "https://ga.jspm.io/npm:@polymer/iron-iconset-svg@3.0.1/iron-iconset-svg.js",
+      "@polymer/iron-meta/iron-meta.js": "https://ga.jspm.io/npm:@polymer/iron-meta@3.0.1/iron-meta.js",
+      "@polymer/polymer/": "https://ga.jspm.io/npm:@polymer/polymer@3.5.1/",
+      "@webcomponents/shadycss/entrypoints/": "https://ga.jspm.io/npm:@webcomponents/shadycss@1.11.1/entrypoints/",
+      "lit": "https://ga.jspm.io/npm:lit@2.7.0/index.js",
+      "lit-element/lit-element.js": "https://ga.jspm.io/npm:lit-element@3.3.0/development/lit-element.js",
+      "lit-html": "https://ga.jspm.io/npm:lit-html@2.7.0/development/lit-html.js",
+      "lit-html/": "https://ga.jspm.io/npm:lit-html@2.7.0/development/",
+      "lit/directives/cache.js": "https://ga.jspm.io/npm:lit@2.7.0/directives/cache.js"
+    }
+  }
+}
