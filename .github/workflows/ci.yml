@@ -23,12 +23,14 @@ jobs:
         uses: browser-actions/setup-chrome@latest
         with:
           chrome-version: ${{ matrix.chrome }}
+      - name: Setup Chomp
+        uses: guybedford/chomp-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: npm install
         run: npm install
-      #- name: npm run build
-      #  run: npm run build
-      - name: npm run test
-        run: npm run test
+      - name: Run Tests
+        run: chomp test
         env:
           CI_BROWSER: C:\hostedtoolcache\windows\chromium\${{ matrix.chrome }}\x64\chrome.exe
           CI_BROWSER_FLAGS: 
