@@ -2,12 +2,11 @@
   "name": "@jspm/cdn-tests",
   "exports": "./src/server.mjs",
   "dependencies": {
-    "@jspm/generator": "^1.1.1",
+    "@jspm/generator": "^1.1.6",
     "kleur": "^4.1.5",
     "open": "^8.4.2"
   },
-  "scripts": {
-    "build": "mkdir -p data/maps && node scripts/generate-maps.mjs",
-    "test": "node scripts/run-tests.mjs"
+  "devDependencies": {
+    "prettier": "^2.8.7"
   }
 }

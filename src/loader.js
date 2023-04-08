@@ -1,19 +1,20 @@
-export function createMapLoader (importMap, system) {
-  const iframe = Object.assign(document.createElement('iframe'), {
-    src: './loader.html',
-    style: 'display: none'
+export function createMapLoader(importMap, system) {
+  const iframe = Object.assign(document.createElement("iframe"), {
+    src: "./loader.html",
+    style: "display: none",
   });
-  const loadPromise = new Promise(resolve => {
-    iframe.onload = () => resolve(iframe.contentWindow.injectAndRunImportMap(importMap, system));
+  const loadPromise = new Promise((resolve) => {
+    iframe.onload = () =>
+      resolve(iframe.contentWindow.injectAndRunImportMap(importMap, system));
   });
   document.body.appendChild(iframe);
   return {
-    async import (specifier) {
+    async import(specifier) {
       const importFn = await loadPromise;
       return importFn(specifier);
     },
-    dispose () {
+    dispose() {
       document.body.removeChild(iframe);
-    }
+    },
   };
 }

@@ -1,0 +1,25 @@
+version = 0.1
+extensions = ['chomp@0.1:prettier']
+
+[[task]]
+name = 'sources'
+deps = ['src/*.js', 'src/*.mjs', 'src/*.html']
+
+[[task]]
+name = 'build'
+dep = 'sources'
+run = 'mkdir -p data/maps && node scripts/generate-maps.mjs'
+
+[[task]]
+name = 'test'
+dep = 'sources' 
+run = 'node scripts/run-tests.mjs'
+
+[[task]]
+name = 'prettier'
+template = 'prettier'
+dep = 'sources'
+[task.template-options]
+ignore-path = '.prettierignore'
+files = 'src/*.js src/*.mjs src/*.html'
+loglevel = 'warn'
