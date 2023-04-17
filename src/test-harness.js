@@ -7,7 +7,7 @@ if (!id) {
 }
 
 const tests = await (await fetch(`/data?id=${id}`)).json();
-await runTests(
+const passed = await runTests(
   tests.map((test) => {
     return {
       test: test.imports,
@@ -21,4 +21,8 @@ await runTests(
   })
 );
 
-fetch(`/done?id=${id}`);
+if (passed) {
+  fetch(`/done?id=${id}`);
+} else {
+  fetch(`/error?id=${id}&msg=failure`);
+}

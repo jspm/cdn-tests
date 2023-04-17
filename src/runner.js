@@ -62,7 +62,9 @@ export default async function runTests(tests) {
 
   if (!failures) {
     setStatus(`All ${tests.length} tests passed.`);
+    return true;
   } else {
     setStatus(`${failures} tests failed.`);
+    return false;
   }
 }
