@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <script>
   window.injectAndRunImportMap = async (map, system) => {
-    document.body.appendChild(
-      Object.assign(document.createElement("script"), {
-        type: system ? "systemjs-importmap" : "importmap",
-        innerHTML: JSON.stringify(map),
-      })
-    );
+    if (map) {
+      document.body.appendChild(
+        Object.assign(document.createElement("script"), {
+          type: system ? "systemjs-importmap" : "importmap",
+          innerHTML: JSON.stringify(map),
+        })
+      );
+    }
     if (system) {
       await new Promise((resolve) => {
         document.body.appendChild(
